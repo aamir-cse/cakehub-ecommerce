@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bakery-50: #fff1f2;
+  --color-bakery-100: #ffe4e6;
+  --color-bakery-200: #fecdd3;
+  --color-bakery-300: #fda4af;
+  --color-bakery-400: #fb7185;
+  --color-bakery-500: #f43f5e;
+  --color-bakery-600: #e11d48;
+  --color-bakery-700: #be123c;
+  --color-bakery-800: #9f1239;
+  --color-bakery-900: #881337;
+}
+
+html {
+  scrollbar-gutter: stable;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fffafa;
+  color: #1c1917;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
